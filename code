@@ -1,0 +1,15 @@
+print("you are a microwave")
+print("person:puts food")
+print("press 1 to cook 2 to explode")
+
+def main():
+  choice = input("decide...")
+
+  if choice == "1":
+      print("you cooked the food")
+  if choice == "2":
+    print("you explode and kill everyone")
+      
+
+if __name__ == "__main__":
+  main()
